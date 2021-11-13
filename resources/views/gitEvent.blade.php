@@ -4,12 +4,12 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>FizzBuzz</title>
+        <title>gitEvent</title>
 
     </head>
     <body>
-        @foreach($result as $value)
-            <p>{{$value}}</p>
-        @endforeach
+      <h1>GitEvent</h1>
+
+      <p>本日はイベントにご参加頂きありがとうございます。</p>
     </body>
 </html>
