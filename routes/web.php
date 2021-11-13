@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/git', function () {
+    return view('gitEvent');
+});
+
 Route::get('/fizzbuzz/{value}', [FreeController::class, 'fizzbuzz']);
 
 
